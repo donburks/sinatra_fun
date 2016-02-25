@@ -1,0 +1,9 @@
+<p>Login to our app</p>
+<%= erb :show_flash %>
+<form action="/login" method="POST">
+	<label for="username">Username: </label>
+	<input type="text" name="username" id="username" placeholder="Enter username..."><br>
+	<label for="password">Password: </label>
+	<input type="password" name="password" id="password" placeholder="Enter password..."><br>
+	<input type="Submit" value="Login">
+</form>
